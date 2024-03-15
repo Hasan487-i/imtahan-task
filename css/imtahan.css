@@ -1,0 +1,106 @@
+.header {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+
+.section__ara {
+  padding: 70px;
+  width: 100%;
+  height: 20px;
+  background-color: black;
+}
+@media (max-width: 430px) {
+  .section__ara {
+    width: 100%;
+  }
+}
+.section__ara-div {
+  justify-content: center;
+  display: flex;
+  gap: 25px;
+}
+.section__ara-div-h-this {
+  color: white;
+}
+.section__ara-div-a-this {
+  color: white;
+}
+
+.section__ilk {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10%;
+  background-color: rgb(69, 19, 20);
+}
+@media (max-width: 820px) {
+  .section__ilk {
+    width: 100%;
+    display: block;
+  }
+}
+.section__ilk-img {
+  padding: 10%;
+}
+.section__ilk-text {
+  padding: 28%;
+}
+.section__ilk-text-h1 {
+  color: white;
+}
+.section__ilk-text-p {
+  color: white;
+}
+
+.section__card {
+  padding: 2%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 30%;
+}
+@media (max-width: 820px) {
+  .section__card {
+    width: 100%;
+    display: block;
+  }
+}
+.section__card-text {
+  padding: 26%;
+}
+.section__card-cards {
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 820px) {
+  .section__card-cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.section__card-cards-this-is {
+  width: 300px;
+  height: 581px;
+}
+@media (max-width: 820px) {
+  .section__card-cards-this-is {
+    width: 100%;
+    height: 10%;
+  }
+}
+
+.cutcards {
+  display: flex;
+}
+.cutcards__div {
+  width: 80%;
+  display: flex;
+  gap: 10%;
+  padding: 2%;
+  margin: 100px;
+}
+
+.sectionson {
+  background-image: url(fotos/backr\ son.webp);
+}/*# sourceMappingURL=imtahan.css.map */

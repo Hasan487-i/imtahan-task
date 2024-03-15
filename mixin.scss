@@ -1,0 +1,13 @@
+@import "variables";
+
+@mixin    mobile(){
+    @media (max-width: $mobile){
+        @content;
+    }
+}
+@mixin ipad(){
+    @media ( max-width: $ipad){
+        @content;
+    }
+    
+}
